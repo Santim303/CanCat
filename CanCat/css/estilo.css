@@ -1,0 +1,101 @@
+body{
+    background: url(/multimedia/fondo1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    background-color: white;
+    border-radius: 1rem;
+    --bs-nav-link-hover-color: #7a7a7a;
+}
+
+.nav-link{
+    font-family: 'Holyfat';
+    font-size: 3rem;
+    color: rgb(17, 189, 17);
+}
+
+.nav-link:hover{
+    background-color: rgb(17, 189, 17);
+    color: white;
+    border-radius: 1rem;
+}
+
+@font-face {
+    font-family: Holyfat;
+    src: url(/multimedia/Holyfat.ttf);
+}
+
+.titulo{
+    color: rgb(17, 189, 17);
+    line-height: 0.7;
+}
+
+.texto{
+    color: rgb(28, 178, 204);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.text{
+    width: 10rem;
+}
+
+.boton{
+    width: 12rem;
+    height: 5rem;
+    background-color: rgb(17, 189, 17);
+    border-radius: 50%;
+}
+
+.boton:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.titulo2{
+    font-family: 'Holyfat';
+    color: rgb(17, 189, 17);
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 1rem;
+}
+
+.texto2{
+    color: white;
+    background-color: rgba(17, 189, 17, 0.836);
+    padding: 1.5rem;
+}
+
+.carousel{
+    width: 65%;
+}
+
+.titulo3{
+    font-family: 'Holyfat';
+    color: rgb(17, 189, 17);
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 1rem;
+}
+
+.texto3{
+    color: white;
+    background-color: rgba(17, 189, 17, 0.836);
+    padding: 1.5rem;
+}
+
+.titulo4{
+    font-family: 'Holyfat';
+    color: rgb(17, 189, 17);
+}
+
+.filtro:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.icone:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
